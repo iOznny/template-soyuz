@@ -1,0 +1,172 @@
+/* 
+-----------------------------------
+    : Custom - Responsive css :
+-----------------------------------
+*/
+@media (max-width: 1199px) {
+  .container-fluid {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }  
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 38px; 
+  }
+  h2 {
+      font-size: 30px;
+  } 
+  h3 {
+      font-size: 26px;
+  }
+  h4 {
+    font-size: 22px; 
+  }
+  h5 {
+    font-size: 18px; 
+  }
+  h6 {
+    font-size: 16px; 
+  }  
+  .topbar { 
+    .menubar-toggle {
+      display: inline-block;
+    }
+  }
+  .navigationbar {
+      background-color: transparent;
+      padding: 0;
+  }
+  .breadcrumbbar {
+      margin: 101px 30px 0 30px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 36px; 
+  }
+  h2 {
+      font-size: 28px;
+  } 
+  h3 {
+      font-size: 24px;
+  }
+  h4 {
+    font-size: 20px; 
+  }
+  h5 {
+    font-size: 16px; 
+  }
+  h6 {
+    font-size: 15px; 
+  } 
+  .vertical-menu-icon {
+    .nav-pills {
+      .logobar {
+        margin-bottom: 120px;
+      }
+    }
+  }  
+  .rightbar {
+    margin-left: 0 !important;
+  }
+  .topbar-mobile {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  .topbar {
+    display: none;
+    .togglebar {
+      display: none;
+    }
+    .infobar {
+      margin-right: 0;
+    }
+    .menubar-toggle {
+      display: none;
+    }
+  }
+  .topbar-toggle-menu {
+    .topbar {
+      display: block;
+      position: fixed;
+      z-index: 1;
+      right: 0;
+      left: 0;
+      margin-top: 71px;
+      padding: 15px 0;
+    }
+  }
+  .menubar {
+      text-align: right;
+  }
+  .footerbar {
+      left: 0;
+  }  
+  .email-rightbar {
+    .email-open-box {
+      .open-email-head {
+        ul {
+          text-align: left;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  .breadcrumbbar {
+    margin: 100px 0 0 0;
+    padding: 20px 0 20px 0;
+    .page-title {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .breadcrumb-list {
+      text-align: center;
+    }
+    .widgetbar {
+      text-align: center;      
+      margin-top: 10px;
+    }
+  }
+  .contentbar {
+    padding: 30px 15px;
+  }
+  .analytic-chart-label {
+    .analytic-label-perform {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    .list-inline {
+      text-align: left;
+    }
+    .analytic-chart-piety {
+      text-align: left;
+    }
+  }
+}
+@media (max-width: 620px) {
+ 
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 420px) {
+  .infobar-settings-sidebar {
+    &.sidebarshow {
+      width: 100%;
+    }
+  }
+}
